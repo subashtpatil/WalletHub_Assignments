@@ -1,0 +1,68 @@
+package com.wh.qa.testcases;
+
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+import com.wh.qa.base.TestBase;
+import com.wh.qa.pages.InsuranceProviderPage;
+import com.wh.qa.pages.LoginPage;
+import com.wh.qa.pages.userProfilePage;
+
+public class walletHubTest extends TestBase {
+	LoginPage loginPage;
+	InsuranceProviderPage insProviderPage;
+	userProfilePage userprofilepg;
+
+	// We need to create a constructor and call the TestBase class constructor by using the super() keyword
+	public walletHubTest() {
+		super();
+	}
+
+	@Test(priority = 1)
+	// @BeforeMethod
+	public void setUp() {
+		initialization();
+		// create an object of below class
+		loginPage = new LoginPage();
+		insProviderPage = new InsuranceProviderPage();
+		userprofilepg = new userProfilePage();
+	}
+
+	@Test(priority = 2)
+	public void loginPageTitleTest() {
+		String title = loginPage.validate_LoginPageTitle();
+		Reporter.log("Actual Title =  " + title);
+		Reporter.log("Expected Title = Page Not Found", true);
+		Assert.assertEquals(title, "Page Not Found");
+	}
+
+	@Test(priority = 3)
+	public void wallethubTest() throws InterruptedException {
+
+		// Methods related to Login Page
+		loginPage.clickOnLoginMenu();
+		loginPage.setEmail(prop.getProperty("email"));
+		loginPage.setPassword(prop.getProperty("password"));
+		loginPage.clickOnloginBtn();
+
+		// Methods related to Insurance Provider Page
+
+		/* Because Insurance Provider home page had some issue with 404 Error as the page
+		 was not displayed.
+		 Below function to be used only in case Insurance Provider page is not working*/
+
+		insProviderPage.clicksubmenuitemfromMenu();
+		insProviderPage.clickOntheInsuranceCompany(prop.getProperty("companyName"));
+		insProviderPage.hoverOnfiveStars();
+		insProviderPage.clickOnfourthStar();
+		insProviderPage.selectFromPolicyDropDown(prop.getProperty("insuranceType"));
+		insProviderPage.writeYourReview(prop.getProperty("reviewText"));
+		insProviderPage.clicksubmitButton();
+		insProviderPage.VerifyreviewpostedConfirmation();
+
+		// Methods related to User Profile Page
+		userprofilepg.clickProfileFromUserMenu("Profile");
+		userprofilepg.userReviewFeedUpdated(prop.getProperty("userName"), prop.getProperty("companyName"));
+	}
+}

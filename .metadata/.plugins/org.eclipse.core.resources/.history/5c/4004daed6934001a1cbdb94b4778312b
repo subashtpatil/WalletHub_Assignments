@@ -1,0 +1,187 @@
+package com.wh.qa.pages;
+
+import java.util.List;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import com.wh.qa.base.TestBase;
+
+public class LoginPage extends TestBase {
+	public WebDriverWait wait = new WebDriverWait(driver, 20);
+	public JavascriptExecutor js = (JavascriptExecutor) driver;
+	public Actions action = new Actions(driver);
+
+	// PageFactory - Object Repository
+
+	// Login Menu
+	@FindBy(xpath = "//a[@class='login']")
+	WebElement LoginMenu;
+
+	// Email input box
+	@FindBy(xpath = "//input[@placeholder='Email Address']")
+	WebElement email;
+
+	// password input box
+	@FindBy(xpath = "//input[@placeholder='Password']")
+	WebElement password;
+
+	// Login Button
+	@FindBy(xpath = "//button[@class='btn blue center reg-tabs-bt touch-element-cl']")
+	WebElement loginBtn;
+
+	// Companies on menu
+	// @FindBy(xpath = "//a[@class='menuParent companies af-icon-down-open']")
+	@FindBy(xpath = "//nav[@class='right-menu loggedIn']/div/a[6]")
+	WebElement menuCompanies;
+
+	// Insurance Providers Sub=menu
+	@FindBy(xpath = "//nav[@id='burger-companies']//a[contains(text(),'Insurance Providers')]")
+	WebElement menuInsProv;
+	
+	// Write a Review
+	@FindBy(xpath = "//button[@class='btn blue-brds']")
+	WebElement writeAReview;
+
+	// Five stars
+	@FindBy(xpath = "//review-star[@class='rvs-svg']//div[@class='rating-box-wrapper']")
+	WebElement fiveStars;
+
+	// Fourth star
+	@FindBy(xpath = "//div[@class='review-action ng-enter-element']//*[4]")
+	WebElement fourthStar;
+
+	// Policy Drop Down
+	@FindBy(xpath = "//span[contains(text(),'Select...')]")
+	WebElement policyDropDown;
+
+	// Health Insurance 
+	@FindBy(xpath = "//ul[@class='dropdown-list ng-enter-element']/li[contains(text(),'Health Insurance')]")
+	WebElement healthInsurance;
+
+	// Write your Review
+	@FindBy(xpath = "//textarea[@placeholder='Write your review...']")
+	WebElement writeYourReview;
+
+	// Submit Button
+	@FindBy(xpath = "//div[@class='sbn-action semi-bold-font btn fixed-w-c tall']")
+	WebElement submitButton;
+
+	// Review posted Confirmation
+	@FindBy(xpath = "//h4[contains(text(),'Your review has been posted.')]")
+	WebElement reviewpostedConformation;
+
+	// ==============================================================
+	// Initializing the LoginPage Objects
+	public LoginPage() {
+		PageFactory.initElements(driver, this);
+	}
+
+	// ==============================================================
+	// Actions or Methods
+	//
+	// ==============================================================
+	// Verify the PreLogin title
+	public String validate_LoginPageTitle() {
+		return driver.getTitle();
+	}
+
+	public void clickOnLoginMenu() {
+		LoginMenu.click();
+	}
+
+	// This method is to set Email in the email text box
+	public void setEmail(String strEmail) {
+		email.sendKeys(strEmail);
+	}
+
+	// This method is to set Password in the password text box
+	public void setPassword(String strPassword) {
+		password.sendKeys(strPassword);
+	}
+
+	// This method is to click on Next Button
+	public void clickOnloginBtn() {
+		loginBtn.click();
+	}
+
+	public void clicksubmenuitemfromMenu(String companies, String InsProv) throws InterruptedException {
+		WebElement companis = driver.findElement(By.xpath("//span[@class='brgm-list-title active'][contains(text(),'"+companies+"')]"));
+		WebElement insProvider = driver.findElement(By.xpath("//a[@class='brgm-list-it'][contains(text(),'"+InsProv+"')]"));
+		wait.until(ExpectedConditions.visibilityOf(companis));
+		action.moveToElement(companis).perform();
+		Thread.sleep(1000);
+		action.moveToElement(insProvider).click().build().perform();
+	}
+
+	public void clickOntheInsuranceCompany(String insCompany) {
+		WebElement insComp=driver.findElement(By.xpath("//a[contains(text(),'"+insCompany+"')]"));
+			action.moveToElement(insCompany).click().perform();
+	}
+
+	public void hoverOnfiveStars() throws InterruptedException {
+		action.moveToElement(fiveStars).build().perform();
+		Thread.sleep(6000);
+	}
+
+	public void clickOnfourthStar() throws InterruptedException {
+		action.moveToElement(fourthStar).build().perform();
+		Thread.sleep(5000);
+		fourthStar.click();
+	}
+
+	public void selectFromPolicyDropDown(String insType) {
+		wait.until(ExpectedConditions.visibilityOf(policyDropDown));
+		policyDropDown.click();
+		/*
+		 * Select Dropdown = new Select(policyDropDown);
+		 * Dropdown.selectByVisibleText(insType);
+		 */
+		action.moveToElement(healthInsurance).click().perform();
+	}
+
+	public void writeYourReview(String reviewText) throws InterruptedException {
+		writeYourReview.sendKeys(reviewText);
+		Thread.sleep(10000);
+	}
+
+	public void clicksubmitButton() {
+		submitButton.click();
+	}
+
+	public void VerifyreviewpostedConformation() {
+		String reviewtxt = reviewpostedConformation.getText();
+		Assert.assertEquals(reviewtxt, "Your review has been posted.");
+	}
+
+	public void clickProfileFromUserMenu(String user1, String profile1) throws InterruptedException {
+		WebElement user = driver.findElement(By.xpath(user1));
+		WebElement profile = driver.findElement(By.xpath(profile1));
+
+		wait.until(ExpectedConditions.visibilityOf(user));
+		action.moveToElement(user).build().perform();
+		Thread.sleep(1000);
+		action.moveToElement(profile).click().build().perform();
+	}
+
+	public void userRecommendedCompanyReview(String compName) throws InterruptedException {
+		WebElement userRecommendations = driver.findElement(By.xpath("//h2[@class='pr-rec-title'])"));
+		wait.until(ExpectedConditions.visibilityOf(userRecommendations));
+
+		WebElement comp = driver.findElement(By.xpath("//a[contains(text(),'" + compName + "')]"));
+
+		String userReviewedComp = comp.getText();
+		Assert.assertEquals(userReviewedComp, compName);
+	}
+
+}

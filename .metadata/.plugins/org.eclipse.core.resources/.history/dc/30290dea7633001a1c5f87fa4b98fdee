@@ -1,0 +1,7 @@
+url= https://www.facebook.com/
+email = subashtpatil.de@gmail.com
+password = Shubamvash@4
+browser = chrome
+statusMsg= Hello World
+PAGE_LOAD_TIMEOUT=30
+IMPLICIT_WAIT=30

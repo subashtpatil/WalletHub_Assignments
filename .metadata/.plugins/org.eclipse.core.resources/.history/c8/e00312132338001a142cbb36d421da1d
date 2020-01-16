@@ -1,0 +1,83 @@
+package com.wh.qa.testcases;
+
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import com.wh.qa.base.TestBase;
+import com.wh.qa.pages.LoginPage;
+import com.wh.qa.pages.fbHomePage;
+
+public class fbStatusPostingValidation extends TestBase{
+	
+	LoginPage loginPage;  //= new LoginPageTest();	
+	fbHomePage homePage;	
+	
+	//We need to create a constructor and call the TestBase class constructor by using the super() keyword
+	public fbStatusPostingValidation() {
+		super();	
+	}
+	
+	@Test(priority=1)
+	//@BeforeMethod
+	public void setUp() {
+		initialization();	
+		
+	//create an object of LoginPage class		
+		loginPage = new LoginPage();
+		homePage= new fbHomePage ();
+	}
+
+	@Test(priority=2)
+	public void loginPageTitleTest() throws InterruptedException {
+		SoftAssert softAssert= new SoftAssert();
+		String title= loginPage.validate_fbLoginPageTitle();   
+		Reporter.log("Actual Title =  "+ title, true);
+		Reporter.log("Expected Title = Facebook – log in or sign up", true);
+		Assert.assertEquals(title, "Facebook – log in or sign up");
+		
+		
+		loginPage.enterEmail(prop.getProperty("email"));
+		loginPage.enterPassword(prop.getProperty("email"));
+		loginPage.LoginBtnClick();	
+		softAssert.assertAll();
+	}
+	
+	/*@Test(priority=3)
+	public void LoginTest() {
+			//homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+				loginPage.login(prop.getProperty("email"), prop.getProperty("password"));
+	}	*/
+	
+	@Test(priority=4)
+	public void homePageTitleTest() {
+		SoftAssert softAssert= new SoftAssert();
+		String titleHomePage= homePage.validate_fbHomePageTitle();
+		Reporter.log("Actual Title =  "+ titleHomePage, true);
+		Reporter.log("Expected Title = Log in to Facebook | Facebook", true);
+		Assert.assertEquals(titleHomePage, "Log in to Facebook | Facebook");	
+		
+		
+		
+		softAssert.assertAll();
+	}
+	
+	/*@Test(priority=4)
+	public void validatePostStatus(prop.getProperty("statusMsg")) throws Exception {
+	String msgPosted=	homePage.postStatus(String stsMsg);
+	Assert.assertEquals(msgPosted, "Hello World");	*/
+	
+	@AfterTest
+	public void tearDown() {
+		
+	/*	//NEED TO LOGOUT
+		driver.quit();*/
+	}
+}
+
+	
+
+

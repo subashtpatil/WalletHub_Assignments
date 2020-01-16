@@ -1,0 +1,61 @@
+package com.wh.qa.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import com.wh.qa.base.TestBase;
+
+public class userProfilePage extends TestBase {
+	public WebDriverWait wait = new WebDriverWait(driver, 20);
+	public JavascriptExecutor js = (JavascriptExecutor) driver;
+	public Actions action = new Actions(driver);
+
+	// PageFactory - Object Repository
+
+	// Review posted Confirmation
+	@FindBy(xpath = "//h4[contains(text(),'Your review has been posted.')]")
+	WebElement reviewpostedConformation;
+
+	// ==============================================================
+	// Initializing the userProfilePage Objects
+	// ==============================================================
+	public userProfilePage() {
+		PageFactory.initElements(driver, this);
+	}
+
+	// ==============================================================
+	// Actions or Methods
+	//
+	// ==============================================================
+	// Click on the User from main Menu and Profile from submenu
+	public void clickProfileFromUserMenu(String user1, String profile1) throws InterruptedException {
+		Thread.sleep(10000); 
+		// WebElement user =
+		// driver.findElement(By.xpath("//span[contains(text(),'"+user1+"')]"));
+		WebElement user = driver.findElement(By.xpath("//a[@class='user']"));
+		
+		wait.until(ExpectedConditions.visibilityOf(user));
+		action.moveToElement(user).perform();
+		Thread.sleep(1000);
+		WebElement profile = driver.findElement(By.xpath("//a[@class='brgm-list-it'][contains(text(),'" + profile1 + "')]"));
+		action.moveToElement(profile).click().build().perform();
+	}
+
+	public void userRecommendedCompanyReview(String compName) throws InterruptedException {
+		WebElement userRecommendations = driver.findElement(By.xpath("//h2[@class='pr-rec-title'])"));
+		wait.until(ExpectedConditions.visibilityOf(userRecommendations));
+
+		WebElement comp = driver.findElement(By.xpath("//a[contains(text(),'" + compName + "')]"));
+
+		String userReviewedComp = comp.getText();
+		Assert.assertEquals(userReviewedComp, compName);
+	}
+
+}

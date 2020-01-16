@@ -1,0 +1,74 @@
+package com.wh.qa.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.asserts.SoftAssert;
+
+//import com.wh.qa.base.SoftAssert;
+import com.wh.qa.base.TestBase;
+
+public class userProfilePage extends TestBase {
+	public WebDriverWait wait = new WebDriverWait(driver, 20);
+	public JavascriptExecutor js = (JavascriptExecutor) driver;
+	public Actions action = new Actions(driver);
+	public SoftAssert softAssert = new SoftAssert();
+
+	// PageFactory - Object Repository
+	
+	
+	// Review posted Confirmation
+	@FindBy(xpath = "//h4[contains(text(),'Your review has been posted.')]")
+	WebElement reviewpostedConformation;
+	
+	// userMenu
+		@FindBy(xpath = "//a[@class='user']")
+		WebElement userMenu;
+		
+		//userRecommendations    
+		@FindBy(xpath = "//h2[@class='pr-rec-title']")
+		WebElement userRecommendations;
+	
+
+	// ==============================================================
+	// Initializing the userProfilePage Objects
+	// ==============================================================
+	public userProfilePage() {
+		PageFactory.initElements(driver, this);
+	}
+
+	// ==============================================================
+	// Actions or Methods
+	//
+	// ==============================================================
+	// ***********Click on the User from main Menu and then Profile from sub-menu
+	public void clickProfileFromUserMenu(String profile1) throws InterruptedException {
+		wait.until(ExpectedConditions.visibilityOf(userMenu));
+		action.moveToElement(userMenu).perform();
+		Thread.sleep(1000);								  
+		WebElement profile = driver.findElement(By.xpath("//a[contains(text(),'"+profile1 +"')]"));
+		action.moveToElement(profile).click().build().perform();
+	}
+
+	//************Validating if user Recommendations is displayed and also the user Reviewed company is displayed	
+	public void userReviewFeedUpdated(String user, String compName) throws InterruptedException {		
+		wait.until(ExpectedConditions.visibilityOf(userRecommendations));
+		String  ActualString=userRecommendations.getText();
+		boolean userval=ActualString.contains("use");
+		Reporter.log("User name is displayed on Profile page", userval);
+		
+		WebElement comp = driver.findElement(By.xpath("//a[contains(text(),'" + compName + "')]"));
+		String userReviewedComp = comp.getText();
+		//Assert.assertEquals(userReviewedComp, compName);
+		boolean userRevComp=(userReviewedComp.equalsIgnoreCase("compNam"));
+		Reporter.log("User reviewed company is displayed on Profile page", userRevComp);
+	}
+
+}

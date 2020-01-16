@@ -1,0 +1,7 @@
+package com.wh.qa.testcases;
+
+import com.wh.qa.base.TestBase;
+
+public class InsuranceProviderPageTest extends TestBase {
+
+}

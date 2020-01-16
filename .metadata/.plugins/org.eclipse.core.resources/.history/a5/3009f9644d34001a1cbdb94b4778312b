@@ -1,0 +1,24 @@
+package com.wh.qa.util;
+
+import org.openqa.selenium.WebElement;
+
+import com.wh.qa.base.TestBase;
+
+public class TestUtil extends TestBase {
+	public static long PAGE_LOAD_TIMEOUT = 30;
+	public static long IMPLICIT_WAIT = 30;
+	
+	
+	public void clickMenuAndSubMenuItem() {
+		// Main menu
+		WebElement mainMenu=driver
+				WebElement menuCompanies;
+
+				// Insurance Providers Sub=menu
+				@FindBy(xpath = "//nav[@id='burger-companies']//a[contains(text(),'Insurance Providers')]")
+				WebElement menuInsProv;	
+		
+	}
+}
+
+

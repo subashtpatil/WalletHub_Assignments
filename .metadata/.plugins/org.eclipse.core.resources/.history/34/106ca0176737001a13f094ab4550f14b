@@ -1,0 +1,16 @@
+url= https://wallethub.com/profile/test-insurance-company/
+email = subashtpatil.de@gmail.com
+password = Test@123
+browser = chrome
+reviewText= The Insurance Exchange is one of the largest independent insurance agencies in the Mid-Atlantic region. They offer insurance coverage to businesses and individuals throughout the United States and abroad.
+companyType= Insurance Providers
+insuranceType=Health Insurance
+companyName=Gage Insurance
+userName= Subash Patil
+userFName=Subash
+review= My WalletHub Review
+PAGE_LOAD_TIMEOUT=30
+IMPLICIT_WAIT=30
+
+
+The Insurance Exchange is one of the largest independent insurance agencies in the Mid-Atlantic region. They offer insurance coverage to businesses and individuals throughout the United States and abroad.

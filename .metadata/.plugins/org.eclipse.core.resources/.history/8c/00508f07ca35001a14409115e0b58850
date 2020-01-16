@@ -1,0 +1,125 @@
+package com.wh.qa.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.Reporter;
+
+import com.wh.qa.base.TestBase;
+
+public class InsuranceProviderPage extends TestBase {
+	public WebDriverWait wait = new WebDriverWait(driver, 40);
+	public JavascriptExecutor js = (JavascriptExecutor) driver;
+	public Actions action = new Actions(driver);
+
+	// Clicking on Companies on menu
+
+	@FindBy(xpath = "//nav[@class='right-menu loggedIn']/div/a[6]")
+	WebElement menuCompanies;
+
+	// Insurance Providers Sub=menu Financial Advisors
+	// @FindBy(xpath = "//nav[@id='burger-companies']//a[contains(text(),'Insurance
+	// Providers')]")
+	@FindBy(xpath = "//nav[@id='burger-companies']//a[contains(text(),'Banks & Credit Unions')]")
+	WebElement menuInsProv;
+
+	// Write a Review
+	@FindBy(xpath = "//button[@class='btn blue-brds']")
+	WebElement writeAReview;
+
+	// Five stars
+	@FindBy(xpath = "//review-star[@class='rvs-svg']//div[@class='rating-box-wrapper']")
+	WebElement fiveStars;
+
+	// Fourth star
+	@FindBy(xpath = "//div[@class='review-action ng-enter-element']//*[4]")
+	WebElement fourthStar;
+
+	// Policy Drop Down
+	@FindBy(xpath = "//span[contains(text(),'Select...')]")
+	WebElement policyDropDown;
+
+	// Write your Review
+	@FindBy(xpath = "//textarea[@placeholder='Write your review...']")
+	WebElement writeYourReview;
+
+	// Submit Button
+	@FindBy(xpath = "//div[@class='sbn-action semi-bold-font btn fixed-w-c tall']")
+	WebElement submitButton;
+
+	// Review posted Confirmation
+	@FindBy(xpath = "//h4[contains(text(),'Your review has been posted.')]")
+	WebElement reviewpostedConformation;
+
+	// ==============================================================
+	// Initializing the InsuranceProviderPage Objects
+	// ==============================================================
+	public InsuranceProviderPage() {
+		PageFactory.initElements(driver, this);
+	}
+
+	// ==============================================================
+	// Actions or Methods
+	//
+	// ==============================================================
+
+	public void clicksubmenuitemfromMenu() throws InterruptedException {
+		// WebElement companis =
+		// driver.findElement(By.xpath("//span[@class='brgm-list-title
+		// active'][contains(text(),'"+companies+"')]"));
+
+		wait.until(ExpectedConditions.visibilityOf(menuCompanies));
+		action.moveToElement(menuCompanies).perform();
+		Thread.sleep(1000);
+		// WebElement insProvider =
+		// driver.findElement(By.xpath("//a[@class='brgm-list-it'][contains(text(),'"+InsProv+"')]"));
+		action.moveToElement(menuInsProv).click().build().perform();
+	}
+
+	public void clickOntheInsuranceCompany(String insCompany) {
+		WebElement insComp = driver.findElement(By.xpath("//a[contains(text(),'" + insCompany + "')]"));
+		action.moveToElement(insComp).click().perform();
+	}
+
+	public void hoverOnfiveStars() throws InterruptedException {
+		action.moveToElement(fiveStars).build().perform();
+		Thread.sleep(6000);
+	}
+
+	public void clickOnfourthStar() throws InterruptedException {
+		action.moveToElement(fourthStar).build().perform();
+		Thread.sleep(5000);
+		fourthStar.click();
+	}
+
+	public void selectFromPolicyDropDown(String insType) {
+		wait.until(ExpectedConditions.visibilityOf(policyDropDown));
+		policyDropDown.click();
+		WebElement insTyp = driver.findElement(
+				By.xpath("//ul[@class='dropdown-list ng-enter-element']/li[contains(text(),'" + insType + "')]"));
+		action.moveToElement(insTyp).click().perform();
+	}
+
+	public void writeYourReview(String reviewText) throws InterruptedException {
+		writeYourReview.sendKeys(reviewText);
+		Thread.sleep(10000);
+	}
+
+	public void clicksubmitButton() {
+		submitButton.click();
+	}
+
+	public void VerifyreviewpostedConfirmation() {
+		wait.until(ExpectedConditions.visibilityOf(reviewpostedConformation));
+		String reviewtxt = reviewpostedConformation.getText();
+		Assert.assertEquals(reviewtxt, "Your review has been posted.");
+		Reporter.log("Review posted by user Confirmation message", true);
+	}
+
+}

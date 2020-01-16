@@ -1,0 +1,32 @@
+package com.wh.qa.testcases;
+
+import org.testng.annotations.Test;
+
+import com.wh.qa.base.TestBase;
+import com.wh.qa.pages.InsuranceProviderPage;
+import com.wh.qa.pages.LoginPage;
+import com.wh.qa.pages.userProfilePage;
+
+public class walletHubTest extends TestBase {
+	LoginPage loginPage;  	
+	InsuranceProviderPage insProviderPage;	
+	userProfilePage userprofilepg;
+	
+	//We need to create a constructor and call the TestBase class constructor by using the super() keyword
+	public walletHubTest() {
+		super();	
+	}
+	
+	@Test(priority=1)
+	//@BeforeMethod
+	public void setUp() {
+		initialization();	
+		
+	//create an object of below class		
+		loginPage = new LoginPage();
+		insProviderPage= new InsuranceProviderPage();
+		userprofilepg= new userProfilePage();
+	}
+
+
+}

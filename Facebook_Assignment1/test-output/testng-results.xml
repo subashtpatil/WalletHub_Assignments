@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Actual Title =  Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Expected Title = Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Actual Title =  Facebook]]>
+    </line>
+    <line>
+      <![CDATA[Expected Title = Facebook]]>
+    </line>
+    <line>
+      <![CDATA[The status message is posted as Hello India]]>
+    </line>
+    <line>
+      <![CDATA[The posted message is displayed as Hello India]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the User Logout Navigation button from main menu and then Logout from the submenu]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="137228" started-at="2020-01-16T12:16:16Z" finished-at="2020-01-16T12:18:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="137228" started-at="2020-01-16T12:16:16Z" finished-at="2020-01-16T12:18:33Z">
+      <class name="com.fb.qa.testcases.fbStatusPostingValidation">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fb.qa.testcases.fbStatusPostingValidation@26be92ad]" name="setUp" is-config="true" duration-ms="31395" started-at="2020-01-16T12:16:16Z" finished-at="2020-01-16T12:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.fb.qa.testcases.fbStatusPostingValidation@26be92ad]" name="loginPageTitleTest" duration-ms="50551" started-at="2020-01-16T12:16:48Z" finished-at="2020-01-16T12:17:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual Title =  Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[Expected Title = Facebook – log in or sign up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:2, instance:com.fb.qa.testcases.fbStatusPostingValidation@26be92ad]" name="homePageTitleTest" duration-ms="124" started-at="2020-01-16T12:17:38Z" finished-at="2020-01-16T12:17:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual Title =  Facebook]]>
+            </line>
+            <line>
+              <![CDATA[Expected Title = Facebook]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="postStatusMessageValidate()[pri:3, instance:com.fb.qa.testcases.fbStatusPostingValidation@26be92ad]" name="postStatusMessageValidate" duration-ms="37828" started-at="2020-01-16T12:17:38Z" finished-at="2020-01-16T12:18:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The status message is posted as Hello India]]>
+            </line>
+            <line>
+              <![CDATA[The posted message is displayed as Hello India]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postStatusMessageValidate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.fbStatusPostingValidation@26be92ad]" name="tearDown" is-config="true" duration-ms="17265" started-at="2020-01-16T12:18:16Z" finished-at="2020-01-16T12:18:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on the User Logout Navigation button from main menu and then Logout from the submenu]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fb.qa.testcases.fbStatusPostingValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

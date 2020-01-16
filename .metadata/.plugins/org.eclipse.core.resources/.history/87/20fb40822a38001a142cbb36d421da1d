@@ -1,0 +1,114 @@
+package com.wh.qa.pages;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.Reporter;
+
+import com.wh.qa.base.TestBase;
+
+public class fbHomePage extends TestBase {
+	public WebDriverWait w= new WebDriverWait(driver, 50);
+	Actions a= new Actions(driver);
+	
+	// Create instance of Javascript executor 
+	JavascriptExecutor je = (JavascriptExecutor) driver;
+	
+	//****************************************************
+	// PageFactory - Object Repository
+	//****************************************************
+	
+	//clicking on the user name
+	//String uName=(prop.getProperty("userName"));
+	//@FindBy(xpath = "//div[contains(text(),'"+uName+"')]") 
+	//@FindBy(xpath = "//div[contains(text(),'Subash Patil')]")
+	
+	//click on the profile icon
+	@FindBy (xpath="//img[@class='_2qgu _54rt img']")
+	WebElement profileIcon;
+
+	//Create Post  
+	/*@FindBy (xpath="//span[@class='_sg1']//a[@label='Create post']")		//a[@class='_4-h7 _5qtn fbReactComposerAttachmentSelector_STATUS']//span[@class='_4-fs']
+	WebElement createPost;*/
+	
+	@FindBy (xpath="//a[@class='_4-h7 _5qtn fbReactComposerAttachmentSelector_STATUS']//span[@class='_4-fs']")
+	WebElement createPost;
+	
+	
+	// status box   
+	@FindBy(xpath = "//div[@class='_5yk2']//div[@class='_5rp7']//div[@class='_5rpb']//div[@class='notranslate _5rpu']//div//div//div[@class='_1mf _1mj']") 
+	WebElement statusBoxItm;
+	
+	@FindBy(xpath="//div[@id='placeholder-ah3j2']")
+	WebElement statusBox;
+
+	// Post button
+	@FindBy(xpath = "//button[@class='_1mf7 _4r1q _4jy0 _4jy3 _4jy1 _51sy selected _42ft _42fr']")
+	WebElement postBtn;
+
+	// Posted Message displayed
+	@FindBy(xpath = "//p[contains(text(),'Hello World')]")
+	WebElement postedMsg;
+	
+	//Logout Navigation button			 
+	@FindBy(xpath = "//div[@id='userNavigationLabel']")
+	WebElement logoutNvg;
+	
+	//Logout
+	@FindBy(xpath = "//span[contains(text(),'Log Out')]")
+	WebElement logOut;
+	
+	
+	
+	//******************************************************
+	// Initializing the fbHomePage elements
+	//******************************************************
+	public fbHomePage() {
+		PageFactory.initElements(driver, this);
+	}
+	//******************************************************
+	// Actions or Methods
+	//******************************************************
+	public String validate_fbHomePageTitle() {		
+		return driver.getTitle();
+	}
+	
+	
+	// post status
+	public String postStatus(String statusMessage) throws Exception {		
+		w.until(ExpectedConditions.visibilityOf(profileIcon));
+		profileIcon.click();
+		Thread.sleep(2000);
+		//je.executeScript("arguments[0].scrollIntoView(true);",createPost);
+		je.executeScript("arguments[0].click();", createPost);
+		/*a.moveToElement(createPost).build().perform();
+		w.until(ExpectedConditions.elementToBeClickable(createPost)).click();*/
+		
+		if (statusBoxItm.isEnabled() && statusBoxItm.isDisplayed()) {
+			statusBoxItm.sendKeys(statusMessage);
+		}		
+		
+		//postBtn.click();
+		final String msg2 = postedMsg.getText();		
+		return msg2;
+	}
+	
+	public void userLogout() throws InterruptedException {
+		w.until(ExpectedConditions.visibilityOf(logoutNvg));
+		a.moveToElement(logoutNvg).click().perform();
+		Thread.sleep(1000);
+		a.moveToElement(logOut).click().build().perform();
+		Reporter.log("Clicking on the User Logout Navigation button from main menu and Logout from the submenu", true);
+		
+	}
+	
+	
+}

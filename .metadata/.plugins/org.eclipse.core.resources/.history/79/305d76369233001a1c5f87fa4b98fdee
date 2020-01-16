@@ -1,0 +1,7 @@
+url= https://wallethub.com/profile/test-insurance-company/
+email = subashtpatil.de@gmail.com
+password = Test@123
+browser = chrome
+policyName= Health Insurance
+PAGE_LOAD_TIMEOUT=30
+IMPLICIT_WAIT=30

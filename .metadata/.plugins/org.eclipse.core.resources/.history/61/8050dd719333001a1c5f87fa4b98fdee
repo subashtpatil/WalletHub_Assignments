@@ -1,0 +1,128 @@
+package com.wh.qa.pages;
+
+import java.util.Properties;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import com.wh.qa.base.TestBase;
+
+public class LoginPage extends TestBase {
+
+	// PageFactory - Object Repository
+
+	// Login Menu
+	@FindBy(xpath = "//a[@class='login']")
+	WebElement LoginMenu;
+
+	// Email input box
+	@FindBy(xpath = "//input[@placeholder='Email Address']")
+	WebElement email;
+
+	// password input box
+	@FindBy(id = "//input[@placeholder='Password']")
+	WebElement password;
+
+	// Login Button
+	@FindBy(xpath = "//button[@class='btn blue center reg-tabs-bt touch-element-cl']")
+	WebElement loginBtn;
+
+	// Five stars
+	@FindBy(id = "")
+	WebElement fiveStars;
+
+	// Fourth star
+	@FindBy(id = "")
+	WebElement fourthStar;
+
+	// Policy Drop Down
+	@FindBy(id = "")
+	WebElement policyDrpDwn;
+
+	// Write a Review
+	@FindBy(id = "")
+	WebElement writeReview;
+
+	// Review Box
+	@FindBy(id = "")
+	WebElement reviewInputBox;
+
+	// Submit Button
+	@FindBy(id = "")
+	WebElement submitButton;
+	
+	// Review Confirmation
+		@FindBy(id = "")
+		WebElement reviewConformation;
+
+	// Initializing the LoginPage Objects
+	public LoginPage() {
+		PageFactory.initElements(driver, this);
+	}
+
+	// Actions or Methods
+	public String validate_fbLoginPageTitle() {
+		return driver.getTitle();
+	}
+
+	// public HomePage login(String eml, String pwd) {
+	public void login(String eml, String pwd) {
+		 
+		 LoginMenu.click();
+		email.clear();
+		email.sendKeys(eml);
+
+		password.clear();
+		password.sendKeys(pwd);
+
+		loginBtn.click();
+		
+		WebDriverWait wait = new WebDriverWait(driver, 20);   	 
+		wait.until(ExpectedConditions.visibilityOf(element);
+		
+		//hoverover 5 stars
+		Actions actions = new Actions(driver);
+		actions.moveToElement(target).perform();
+		
+		fourthStar.click();
+		
+		wait.until(ExpectedConditions.visibilityOf(element);
+		
+		
+		public void policyDropDown() {
+			policyDropDown.click();
+		}
+
+		public  void adminViaDropDown() {
+		      Select drop = new Select(policyDropDown);
+		      drop.selectByVisibleText(prop.getProperty("policyName"));  
+		}
+
+		public void userFromDropdown() {
+		    userFromDropdown.click();
+		}
+
+
+		writeReview.click();
+		
+		reviewInputBox.sendKeys(arg0);
+		
+		submitButton.click();
+		
+		
+		String rvwTxt=reviewConformation.getText();
+		Assert.assertEquals(rvwTxt, arg1);
+		
+    	 
+		//return new HomePage();
+
+	}
+
+}

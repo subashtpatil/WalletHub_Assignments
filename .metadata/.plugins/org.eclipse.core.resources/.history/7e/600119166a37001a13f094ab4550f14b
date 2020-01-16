@@ -1,0 +1,138 @@
+package com.wh.qa.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.asserts.SoftAssert;
+
+import com.wh.qa.base.TestBase;
+
+public class InsuranceProviderPage extends TestBase {
+	public WebDriverWait wait = new WebDriverWait(driver, 40);
+	public JavascriptExecutor js = (JavascriptExecutor) driver;
+	public Actions action = new Actions(driver);
+
+	// WebElement Companies on menu
+	@FindBy(xpath = "//nav[@class='right-menu loggedIn']/div/a[6]")
+	WebElement menuCompanies;
+
+	// Insurance Providers Submenu 
+	@FindBy(xpath = "//nav[@id='burger-companies']//a[contains(text(),'Insurance Providers')]")	
+	WebElement menuInsProv;
+	
+	//Insurance Provider			
+	@FindBy(xpath = "//h1[contains(text(),'Insurance Providers')]")
+	WebElement InsProvPage;
+	
+
+	// Write a Review
+	@FindBy(xpath = "//button[@class='btn blue-brds']")
+	WebElement writeAReview;
+
+	// Five stars
+	@FindBy(xpath = "//review-star[@class='rvs-svg']//div[@class='rating-box-wrapper']")
+	WebElement fiveStars;
+
+	// Fourth star
+	@FindBy(xpath = "//div[@class='review-action ng-enter-element']//*[4]")
+	WebElement fourthStar;
+
+	// Policy Drop Down
+	@FindBy(xpath = "//span[contains(text(),'Select...')]")
+	WebElement policyDropDown;
+
+	// Write your Review
+	@FindBy(xpath = "//textarea[@placeholder='Write your review...']")
+	WebElement writeYourReview;
+
+	// Submit Button
+	@FindBy(xpath = "//div[@class='sbn-action semi-bold-font btn fixed-w-c tall']")
+	WebElement submitButton;
+
+	// Review posted Confirmation
+	@FindBy(xpath = "//h4[contains(text(),'Your review has been posted.')]")
+	WebElement reviewpostedConformation;
+
+	// ==============================================================
+	// Initializing the InsuranceProviderPage Objects
+	// ==============================================================
+	public InsuranceProviderPage() {
+		PageFactory.initElements(driver, this);
+	}
+
+	// ==============================================================
+	// Actions or Methods //
+	// ==============================================================
+
+	public void clicksubmenuitemfromMenu() throws InterruptedException {
+		wait.until(ExpectedConditions.visibilityOf(menuCompanies));
+		action.moveToElement(menuCompanies).perform();
+		Thread.sleep(1000);
+		action.moveToElement(menuInsProv).click().build().perform();
+		Reporter.log("Clicking on Companies and then the Insurance Providers submenu");		
+	}
+	
+	public void ValidateInsuranceProviderTitle() throws InterruptedException {	
+		SoftAssert softAssert= new SoftAssert();
+		String insProvTxt=InsProvPage.getText();
+		Reporter.log("The title of the page is displayed as  =  " + insProvTxt);
+		softAssert.assertEquals(insProvTxt, "Insurance Providers");
+		softAssert.assertAll();
+		Thread.sleep(25000);
+	}	
+	
+	public void clickOntheInsuranceCompany(String insCompany) {
+		WebElement insComp = driver.findElement(By.xpath("//a[contains(text(),'" + insCompany + "')]"));
+		action.moveToElement(insComp).click().perform();
+		Reporter.log("Clicking on the Insurance Provider Company");
+	}
+
+	public void hoverOnfiveStars() throws InterruptedException {
+		action.moveToElement(fiveStars).build().perform();
+		Thread.sleep(3000);
+	}
+
+	public void clickOnfourthStar() throws InterruptedException {
+		action.moveToElement(fourthStar).build().perform();
+		Thread.sleep(2000);
+		fourthStar.click();
+		Reporter.log("Clicking on the fourth Star out of five stars to provide my review");
+	}
+
+	public void selectInsTypeFromPolicyDropDown(String insType) {
+		wait.until(ExpectedConditions.visibilityOf(policyDropDown));
+		policyDropDown.click();
+		WebElement insTyp = driver.findElement(By.xpath("//ul[@class='dropdown-list ng-enter-element']/li[contains(text(),'" + insType + "')]"));
+		action.moveToElement(insTyp).click().perform();
+		Reporter.log("selecting Health Insurance from the Policies dropdown list");
+	}
+
+	public void writeYourReview(String reviewText) throws InterruptedException {
+		writeYourReview.sendKeys(reviewText);
+		Thread.sleep(10000);
+		Reporter.log("Entering my review comment for the company");
+	}
+
+	public void clicksubmitButton() {
+		submitButton.click();
+		Reporter.log("Clicking on the Submit button");
+	}
+
+	public void VerifyreviewpostedConfirmation() {
+		SoftAssert softAssert= new SoftAssert();
+		wait.until(ExpectedConditions.visibilityOf(reviewpostedConformation));
+		String reviewtxt = reviewpostedConformation.getText();
+		Assert.assertEquals(reviewtxt, "Your review has been posted.");
+		Reporter.log("Validating the review posted by user, Confirmation message", true);
+		softAssert.assertAll();
+	}
+	}
+
+
