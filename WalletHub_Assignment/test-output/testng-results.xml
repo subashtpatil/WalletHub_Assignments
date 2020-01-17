@@ -7,17 +7,50 @@
     <line>
       <![CDATA[Expected Title of Application launching page = Page Not Found]]>
     </line>
+    <line>
+      <![CDATA[Actual Title of Home Page =  Login]]>
+    </line>
+    <line>
+      <![CDATA[Expected Title of Home Page = Page Not Found]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Companies and then the Insurance Providers submenu]]>
+    </line>
+    <line>
+      <![CDATA[The title of the page is displayed as  =  Insurance Providers]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the Insurance Provider Company]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the fourth Star out of five stars to provide my review]]>
+    </line>
+    <line>
+      <![CDATA[Anyway since policy dropdown to enter Health Insurance is not available, entering my review comment for the company, if needed]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the User Name from main menu and Profile from the submenu]]>
+    </line>
+    <line>
+      <![CDATA[User name is displayed on Profile page]]>
+    </line>
+    <line>
+      <![CDATA[The company is reviewed by the user and is visible in the User's Recommended companies list]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="327439" started-at="2020-01-16T13:29:21Z" finished-at="2020-01-16T13:34:48Z">
+  <suite name="Default suite" duration-ms="199116" started-at="2020-01-17T09:20:09Z" finished-at="2020-01-17T09:23:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="327439" started-at="2020-01-16T13:29:21Z" finished-at="2020-01-16T13:34:48Z">
+    <test name="Default test" duration-ms="199116" started-at="2020-01-17T09:20:09Z" finished-at="2020-01-17T09:23:28Z">
       <class name="com.wh.qa.testcases.walletHubTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="setUp" is-config="true" duration-ms="35163" started-at="2020-01-16T13:29:21Z" finished-at="2020-01-16T13:29:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="setUp" is-config="true" duration-ms="13756" started-at="2020-01-17T09:20:09Z" finished-at="2020-01-17T09:20:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="loginPageTitleTest" duration-ms="641" started-at="2020-01-16T13:29:56Z" finished-at="2020-01-16T13:29:57Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="loginPageTitleTest" duration-ms="16" started-at="2020-01-17T09:20:23Z" finished-at="2020-01-17T09:20:23Z">
           <reporter-output>
             <line>
               <![CDATA[Actual Title of Application launching page =  Page Not Found]]>
@@ -27,48 +60,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="FAIL" signature="loginPageTest()[pri:2, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="loginPageTest" duration-ms="49044" started-at="2020-01-16T13:29:57Z" finished-at="2020-01-16T13:30:46Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="loginPageTest()[pri:2, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="loginPageTest" duration-ms="16760" started-at="2020-01-17T09:20:23Z" finished-at="2020-01-17T09:20:40Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Email Address']"}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HP', ip: '192.168.43.187', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b7e730cf6ea429a8f3a28b54619997cc
-*** Element info: {Using=xpath, value=//input[@placeholder='Email Address']}]]>
+              <![CDATA[The following asserts failed:
+expected [Page Not Found] but found [Login]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Email Address']"}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HP', ip: '192.168.43.187', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b7e730cf6ea429a8f3a28b54619997cc
-*** Element info: {Using=xpath, value=//input[@placeholder='Email Address']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
-at com.wh.qa.pages.LoginPage.setEmail(LoginPage.java:58)
-at com.wh.qa.testcases.walletHubTest.loginPageTest(walletHubTest.java:48)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Page Not Found] but found [Login]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.wh.qa.testcases.walletHubTest.loginPageTest(walletHubTest.java:58)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -96,21 +98,27 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Actual Title of Home Page =  Login]]>
+            </line>
+            <line>
+              <![CDATA[Expected Title of Home Page = Page Not Found]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginPageTest -->
-        <test-method status="FAIL" signature="insuranceProviderPageTest()[pri:3, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="insuranceProviderPageTest" duration-ms="120798" started-at="2020-01-16T13:30:46Z" finished-at="2020-01-16T13:32:47Z">
+        <test-method status="FAIL" signature="insuranceProviderPageTest()[pri:3, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="insuranceProviderPageTest" duration-ms="157173" started-at="2020-01-17T09:20:40Z" finished-at="2020-01-17T09:23:17Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //nav[@class='right-menu loggedIn']/div/a[6]' (tried for 50 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Select...')]' (tried for 50 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //nav[@class='right-menu loggedIn']/div/a[6]' (tried for 50 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Select...')]' (tried for 50 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.wh.qa.pages.InsuranceProviderPage.clicksubmenuitemfromMenu(InsuranceProviderPage.java:82)
-at com.wh.qa.testcases.walletHubTest.insuranceProviderPageTest(walletHubTest.java:68)
+at com.wh.qa.pages.InsuranceProviderPage.selectInsTypeFromPolicyDropDown(InsuranceProviderPage.java:132)
+at com.wh.qa.testcases.walletHubTest.insuranceProviderPageTest(walletHubTest.java:80)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -136,15 +144,15 @@ at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav[@class='right-menu loggedIn']/div/a[6]"}
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Select...')]"}
   (Session info: chrome=76.0.3809.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HP', ip: '192.168.43.187', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_221'
+System info: host: 'HP', ip: '192.168.0.101', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b7e730cf6ea429a8f3a28b54619997cc
-*** Element info: {Using=xpath, value=//nav[@class='right-menu loggedIn']/div/a[6]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60650}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: afcb1fc1ef442fc6a7295b032a3f1483
+*** Element info: {Using=xpath, value=//span[contains(text(),'Select...')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -172,19 +180,38 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
+            <line>
+              <![CDATA[Clicking on Companies and then the Insurance Providers submenu]]>
+            </line>
+            <line>
+              <![CDATA[The title of the page is displayed as  =  Insurance Providers]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the Insurance Provider Company]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the fourth Star out of five stars to provide my review]]>
+            </line>
+            <line>
+              <![CDATA[Anyway since policy dropdown to enter Health Insurance is not available, entering my review comment for the company, if needed]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the Submit button]]>
+            </line>
           </reporter-output>
         </test-method> <!-- insuranceProviderPageTest -->
-        <test-method status="FAIL" signature="userProfilePageTest()[pri:4, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="userProfilePageTest" duration-ms="120700" started-at="2020-01-16T13:32:47Z" finished-at="2020-01-16T13:34:47Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method status="FAIL" signature="userProfilePageTest()[pri:4, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="userProfilePageTest" duration-ms="10506" started-at="2020-01-17T09:23:17Z" finished-at="2020-01-17T09:23:27Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='brgm-button brgm-user brgm-list-box']' (tried for 50 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='brgm-button brgm-user brgm-list-box']' (tried for 50 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.wh.qa.pages.userProfilePage.clickProfileFromUserMenu(userProfilePage.java:53)
-at com.wh.qa.testcases.walletHubTest.userProfilePageTest(walletHubTest.java:84)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.wh.qa.pages.userProfilePage.userReviewFeedUpdated(userProfilePage.java:88)
+at com.wh.qa.testcases.walletHubTest.userProfilePageTest(walletHubTest.java:92)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -210,45 +237,22 @@ at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='brgm-button brgm-user brgm-list-box']"}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HP', ip: '192.168.43.187', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b7e730cf6ea429a8f3a28b54619997cc
-*** Element info: {Using=xpath, value=//div[@class='brgm-button brgm-user brgm-list-box']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 27 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Clicking on the User Name from main menu and Profile from the submenu]]>
+            </line>
+            <line>
+              <![CDATA[User name is displayed on Profile page]]>
+            </line>
+            <line>
+              <![CDATA[The company is reviewed by the user and is visible in the User's Recommended companies list]]>
+            </line>
           </reporter-output>
         </test-method> <!-- userProfilePageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="tearDown" is-config="true" duration-ms="704" started-at="2020-01-16T13:34:47Z" finished-at="2020-01-16T13:34:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wh.qa.testcases.walletHubTest@4501b7af]" name="tearDown" is-config="true" duration-ms="814" started-at="2020-01-17T09:23:27Z" finished-at="2020-01-17T09:23:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

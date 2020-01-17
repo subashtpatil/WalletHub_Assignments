@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Subhash patil\AppData\Local\Temp\testng-eclipse--34735769\testng-customsuite.xml</span>
+                    <span>C:\Users\Subhash patil\AppData\Local\Temp\testng-eclipse--562649149\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -152,11 +152,11 @@
                   <a name="insuranceProviderPageTest">
                   </a> <!-- insuranceProviderPageTest -->
                   <span class="method-name">insuranceProviderPageTest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //nav[@class=&apos;right-menu loggedIn&apos;]/div/a[6]&apos; (tried for 50 second(s) with 500 milliseconds interval)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[contains(text(),&apos;Select...&apos;)]&apos; (tried for 50 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.wh.qa.pages.InsuranceProviderPage.clicksubmenuitemfromMenu(InsuranceProviderPage.java:82)
-	at com.wh.qa.testcases.walletHubTest.insuranceProviderPageTest(walletHubTest.java:68)
+	at com.wh.qa.pages.InsuranceProviderPage.selectInsTypeFromPolicyDropDown(InsuranceProviderPage.java:132)
+	at com.wh.qa.testcases.walletHubTest.insuranceProviderPageTest(walletHubTest.java:80)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -182,15 +182,15 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//nav[@class=&apos;right-menu loggedIn&apos;]/div/a[6]&quot;}
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Select...&apos;)]&quot;}
   (Session info: chrome=76.0.3809.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HP&apos;, ip: &apos;192.168.43.187&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_221&apos;
+System info: host: &apos;HP&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b7e730cf6ea429a8f3a28b54619997cc
-*** Element info: {Using=xpath, value=//nav[@class=&apos;right-menu loggedIn&apos;]/div/a[6]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60650}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: afcb1fc1ef442fc6a7295b032a3f1483
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Select...&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -223,34 +223,10 @@ Session ID: b7e730cf6ea429a8f3a28b54619997cc
                   <a name="loginPageTest">
                   </a> <!-- loginPageTest -->
                   <span class="method-name">loginPageTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder=&apos;Email Address&apos;]&quot;}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HP&apos;, ip: &apos;192.168.43.187&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b7e730cf6ea429a8f3a28b54619997cc
-*** Element info: {Using=xpath, value=//input[@placeholder=&apos;Email Address&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
-	at com.wh.qa.pages.LoginPage.setEmail(LoginPage.java:58)
-	at com.wh.qa.testcases.walletHubTest.loginPageTest(walletHubTest.java:48)
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Page Not Found] but found [Login]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.wh.qa.testcases.walletHubTest.loginPageTest(walletHubTest.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -285,11 +261,11 @@ Session ID: b7e730cf6ea429a8f3a28b54619997cc
                   <a name="userProfilePageTest">
                   </a> <!-- userProfilePageTest -->
                   <span class="method-name">userProfilePageTest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;brgm-button brgm-user brgm-list-box&apos;]&apos; (tried for 50 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.wh.qa.pages.userProfilePage.clickProfileFromUserMenu(userProfilePage.java:53)
-	at com.wh.qa.testcases.walletHubTest.userProfilePageTest(walletHubTest.java:84)
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.wh.qa.pages.userProfilePage.userReviewFeedUpdated(userProfilePage.java:88)
+	at com.wh.qa.testcases.walletHubTest.userProfilePageTest(walletHubTest.java:92)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -315,38 +291,6 @@ Session ID: b7e730cf6ea429a8f3a28b54619997cc
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;brgm-button brgm-user brgm-list-box&apos;]&quot;}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HP&apos;, ip: &apos;192.168.43.187&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b7e730cf6ea429a8f3a28b54619997cc
-*** Element info: {Using=xpath, value=//div[@class=&apos;brgm-button brgm-user brgm-list-box&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 27 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -371,7 +315,7 @@ Session ID: b7e730cf6ea429a8f3a28b54619997cc
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Subhash patil\AppData\Local\Temp\testng-eclipse--34735769\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Subhash patil\AppData\Local\Temp\testng-eclipse--562649149\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -424,24 +368,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'insuranceProviderPageTest')
 data.setCell(0, 2, 'com.wh.qa.testcases.walletHubTest')
-data.setCell(0, 3, 120798);
+data.setCell(0, 3, 157173);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'userProfilePageTest')
+data.setCell(1, 1, 'loginPageTest')
 data.setCell(1, 2, 'com.wh.qa.testcases.walletHubTest')
-data.setCell(1, 3, 120700);
+data.setCell(1, 3, 16760);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginPageTest')
+data.setCell(2, 1, 'userProfilePageTest')
 data.setCell(2, 2, 'com.wh.qa.testcases.walletHubTest')
-data.setCell(2, 3, 49044);
+data.setCell(2, 3, 10506);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'loginPageTitleTest')
 data.setCell(3, 2, 'com.wh.qa.testcases.walletHubTest')
-data.setCell(3, 3, 641);
+data.setCell(3, 3, 16);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -457,6 +401,32 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Actual Title of Application launching page =  Page Not Found</span>
                 <span class="reporter-method-output">Expected Title of Application launching page = Page Not Found</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginPageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Actual Title of Home Page =  Login</span>
+                <span class="reporter-method-output">Expected Title of Home Page = Page Not Found</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">userProfilePageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on the User Name from main menu and Profile from the submenu</span>
+                <span class="reporter-method-output">User name is displayed on Profile page</span>
+                <span class="reporter-method-output">The company is reviewed by the user and is visible in the User's Recommended companies list</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">insuranceProviderPageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on Companies and then the Insurance Providers submenu</span>
+                <span class="reporter-method-output">The title of the page is displayed as  =  Insurance Providers</span>
+                <span class="reporter-method-output">Clicking on the Insurance Provider Company</span>
+                <span class="reporter-method-output">Clicking on the fourth Star out of five stars to provide my review</span>
+                <span class="reporter-method-output">Anyway since policy dropdown to enter Health Insurance is not available, entering my review comment for the company, if needed</span>
+                <span class="reporter-method-output">Clicking on the Submit button</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -481,29 +451,29 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">35474 ms</span>
+                <span class="method-start">13803 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginPageTest</span>
-                <span class="method-start">36115 ms</span>
+                <span class="method-start">13834 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">insuranceProviderPageTest</span>
-                <span class="method-start">85206 ms</span>
+                <span class="method-start">30615 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">userProfilePageTest</span>
-                <span class="method-start">206004 ms</span>
+                <span class="method-start">187794 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">326719 ms</span>
+                <span class="method-start">198302 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

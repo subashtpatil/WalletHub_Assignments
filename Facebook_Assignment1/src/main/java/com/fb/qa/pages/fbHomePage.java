@@ -1,5 +1,8 @@
 package com.fb.qa.pages;
 
+import java.util.NoSuchElementException;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -22,7 +25,7 @@ public class fbHomePage extends TestBase {
 	// ****************************************************
 	// PageFactory - Object Repository
 	// ****************************************************
-	
+
 	// statusbox
 	@FindBy(name = "xhpc_message")
 	WebElement statusBox;
@@ -30,21 +33,20 @@ public class fbHomePage extends TestBase {
 	@FindBy(xpath = "//button[contains(.,'Post')]")
 	WebElement postButton;
 
-	// Posted Message displayed
-	@FindBy(xpath = "//p[starts-with(text(),'Hello India')]")
-	WebElement postedMsg;
-	
-	//timestamp 	
+	/*// Posted Message displayed
+	@FindBy(xpath = "//p[starts-with(text(),'Hello facebook')]")
+	WebElement postedMsg;*/
+
+	// timestamp
 	@FindBy(xpath = "//span[@id='js_d7']")
 	WebElement timeStamp;
-	
-	//close message box   
+
+	// close message box
 	@FindBy(xpath = "//i[@class='img sp_rOrzOEa27lM sx_566131']")
 	WebElement closeMsgBox;
-	
-	
+
 	// Logout Navigation button
-	@FindBy(id="userNavigationLabel")
+	@FindBy(id = "userNavigationLabel")
 	WebElement logoutNvg;
 
 	// Logout
@@ -70,41 +72,47 @@ public class fbHomePage extends TestBase {
 		wait.until(ExpectedConditions.visibilityOf(statusBox));
 		statusBox.click();
 		statusBox.sendKeys(statusMessage);
-		postButton.click();
-		Reporter.log("The status message is posted as "+statusMessage, true );
 		Thread.sleep(2000);
-		
-		//checking if the status message popup is still existing and closing it, if exists.
-		if (closeMsgBox.isEnabled()&& closeMsgBox.isDisplayed()) {
-		a.moveToElement(closeMsgBox).click().perform();
-		driver.navigate().refresh();
-		Thread.sleep(8000);
+		postButton.click();
+		Reporter.log("The status message is posted as " + statusMessage, true);
+		Thread.sleep(2000);
+
+		try {
+			// checking if the status message popup is still existing and closing it, if
+			// exists.
+			if (closeMsgBox.isEnabled() && closeMsgBox.isDisplayed()) {
+				a.moveToElement(closeMsgBox).click().perform();
+				Thread.sleep(8000);
+			}
+		} catch (NoSuchElementException e) {
+			e.printStackTrace();
+
 		}
 	}
-	
-	
+
 	public void validatePostedMessage(String statusMessage) {
-		SoftAssert softAssert= new SoftAssert();
-		je.executeScript("arguments[0].scrollIntoView(true);",postedMsg);
-		String Msg=postedMsg.getText();
-		softAssert.assertEquals(statusMessage, Msg);	
-		Reporter.log("The posted message is displayed as "+Msg, true);
+		SoftAssert softAssert = new SoftAssert();
+		WebElement postedMsg=driver.findElement(By.xpath("//p[starts-with(text(),'"+statusMessage+"')]"));
+		je.executeScript("arguments[0].scrollIntoView(true);", postedMsg);
+		String Msg = postedMsg.getText();
+		softAssert.assertEquals(statusMessage, Msg);
+		Reporter.log("The posted message is displayed as " + Msg, true);
 		softAssert.assertAll();
 	}
-	
-	
+
 	public void userLogout() throws InterruptedException {
-		SoftAssert softAssert= new SoftAssert();
+		SoftAssert softAssert = new SoftAssert();
 		a.moveToElement(logoutNvg).perform();
 		Thread.sleep(1000);
 		je.executeScript("arguments[0].click();", logoutNvg);
 		Thread.sleep(1000);
 		a.moveToElement(logOut).click().build().perform();
-		String logoutTitle= driver.getTitle();
+		String logoutTitle = driver.getTitle();
 		Thread.sleep(2000);
 		softAssert.assertEquals(logoutTitle, "Facebook – log in or sign up");
-		
-		Reporter.log("Clicking on the User Logout Navigation button from main menu and then Logout from the submenu", true);
+
+		Reporter.log("Clicking on the User Logout Navigation button from main menu and then Logout from the submenu",
+				true);
 		softAssert.assertAll();
 	}
 

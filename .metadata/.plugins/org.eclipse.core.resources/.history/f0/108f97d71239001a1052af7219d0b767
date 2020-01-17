@@ -1,0 +1,74 @@
+package com.fb.qa.testcases;
+
+import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import com.fb.qa.base.TestBase;
+import com.fb.qa.pages.LoginPage;
+import com.fb.qa.pages.fbHomePage;
+
+public class fbStatusPostingValidation extends TestBase{
+	
+	LoginPage loginPage;  //= new LoginPageTest();	
+	fbHomePage homePage;
+		
+	//We need to create a constructor and call the TestBase class constructor by using the super() keyword
+	public fbStatusPostingValidation() {
+		super();	
+	}
+	
+	@BeforeTest
+	public void setUp() {
+		initialization();	
+		
+	//create an object of LoginPage class		
+		loginPage = new LoginPage();
+		homePage= new fbHomePage ();
+	}
+
+	@Test(priority=1)
+	public void loginPageTitleTest() throws InterruptedException {
+		SoftAssert softAssert= new SoftAssert();
+		String title= loginPage.validate_fbLoginPageTitle();   
+		Reporter.log("Actual Title =  "+ title, true);
+		Reporter.log("Expected Title = Facebook – log in or sign up", true);
+		softAssert.assertEquals(title, "Facebook – log in or sign up");
+		
+		
+		loginPage.enterEmail(prop.getProperty("email"));
+		loginPage.enterPassword(prop.getProperty("password"));
+		loginPage.LoginBtnClick();	
+		softAssert.assertAll();
+	}
+	
+		
+	@Test(priority=2)
+	public void homePageTitleTest() {
+		SoftAssert softAssert= new SoftAssert();
+		String titleHomePage= homePage.validate_fbHomePageTitle();
+		Reporter.log("Actual Title =  "+ titleHomePage, true);
+		Reporter.log("Expected Title = Facebook", true);
+		softAssert.assertEquals(titleHomePage, "Facebook");	
+		softAssert.assertAll();
+	}
+	
+	@Test(priority=3)
+	public void postStatusMessageValidate() throws Exception{
+	homePage.postStatus(prop.getProperty("statusMsg"));
+	
+	homePage.validatePostedMessage(prop.getProperty("statusMsg"));
+	}
+		
+	@AfterTest
+	public void tearDown() throws InterruptedException {		
+		homePage.userLogout();		
+		driver.quit();		
+	}
+}
+
+	
+
+

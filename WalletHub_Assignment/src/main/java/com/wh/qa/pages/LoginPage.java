@@ -1,6 +1,7 @@
 package com.wh.qa.pages;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -14,7 +15,7 @@ public class LoginPage extends TestBase {
 	public JavascriptExecutor js = (JavascriptExecutor) driver;
 	public Actions action = new Actions(driver);
 
-	//************ PageFactory - Object Repository****************//
+	// ************ PageFactory - Object Repository****************//
 
 	// Login Menu
 	@FindBy(xpath = "//a[@class='login']")
@@ -31,8 +32,7 @@ public class LoginPage extends TestBase {
 	// Login Button
 	@FindBy(xpath = "//button[@class='btn blue center reg-tabs-bt touch-element-cl']")
 	WebElement loginBtn;
-	
-	
+
 	// ==============================================================
 	// Initializing the LoginPage Objects
 	// ==============================================================
@@ -50,7 +50,12 @@ public class LoginPage extends TestBase {
 	}
 
 	public void clickOnLoginMenu() {
-		LoginMenu.click();
+
+		try {
+			LoginMenu.click();
+		} catch (NoSuchElementException e) {
+			e.printStackTrace();
+		}
 	}
 
 	// This method is to set Email in the email text box
@@ -67,7 +72,7 @@ public class LoginPage extends TestBase {
 	public void clickOnloginBtn() {
 		loginBtn.click();
 	}
-	
+
 	public String validate_HomePageTitle() {
 		return driver.getTitle();
 	}

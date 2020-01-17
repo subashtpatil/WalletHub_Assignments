@@ -1,0 +1,9 @@
+//url= https://www.facebook.com/
+url=https://www.facebook.com/
+email = subashtpatil.de@gmail.com
+password = Test@123
+browser = chrome
+userName=Subash Patil
+statusMsg= Hello Globe
+PAGE_LOAD_TIMEOUT=30
+IMPLICIT_WAIT=30

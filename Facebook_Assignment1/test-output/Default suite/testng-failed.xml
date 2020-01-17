@@ -5,10 +5,8 @@
     <classes>
       <class name="com.fb.qa.testcases.fbStatusPostingValidation">
         <methods>
-          <include name="homePageTitleTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="loginPageTitleTest"/>
           <include name="postStatusMessageValidate"/>
         </methods>
       </class> <!-- com.fb.qa.testcases.fbStatusPostingValidation -->

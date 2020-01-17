@@ -1,0 +1,97 @@
+package com.wh.qa.testcases;
+
+import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import com.wh.qa.base.TestBase;
+import com.wh.qa.pages.InsuranceProviderPage;
+import com.wh.qa.pages.LoginPage;
+import com.wh.qa.pages.userProfilePage;
+
+public class walletHubTest extends TestBase {
+	public LoginPage loginPage;
+	public InsuranceProviderPage insProviderPage;
+	public userProfilePage userprofilepg;
+	SoftAssert softAssert = new SoftAssert();
+
+	// We need to create a constructor and call the TestBase class constructor by
+	// using the super() keyword
+	public walletHubTest() {
+		super();
+	}
+
+	@BeforeTest
+	public void setUp() {
+		initialization();
+
+		// creating objects of below classes
+		loginPage = new LoginPage();
+		insProviderPage = new InsuranceProviderPage();
+		userprofilepg = new userProfilePage();
+	}
+
+	@Test(priority = 1)
+	public void loginPageTitleTest() {
+		String title = loginPage.validate_LoginPageTitle();
+		Reporter.log("Actual Title of Application launching page =  " + title);
+		Reporter.log("Expected Title of Application launching page = Page Not Found");
+		softAssert.assertEquals(title, "Page Not Found");
+	}
+
+	@Test(priority = 2)
+	public void loginPageTest() throws InterruptedException {
+
+		// Methods related to Login Page
+		loginPage.clickOnLoginMenu();
+		loginPage.setEmail(prop.getProperty("email"));
+		loginPage.setPassword(prop.getProperty("password"));
+		loginPage.clickOnloginBtn();
+
+		String title2 = loginPage.validate_HomePageTitle();
+		Reporter.log("Actual Title of Home Page =  " + title2);
+		Reporter.log("Expected Title of Home Page = Page Not Found");
+		softAssert.assertEquals(title2, "Page Not Found");
+
+	}
+
+	@Test(priority = 3)
+	public void insuranceProviderPageTest() throws InterruptedException {
+		// Methods related to Insurance Provider Page
+
+		/*
+		 * Because Insurance Provider home page had some issue with 404 Error as the
+		 * page was not displayed. Below function to be used only in case Insurance
+		 * Provider page is not working
+		 */
+
+		// Clicking on the Companies from main menu and Insurance Providers from
+		// submenu.
+		insProviderPage.clicksubmenuitemfromMenu();
+		insProviderPage.ValidateInsuranceProviderTitle();
+		insProviderPage.searchInsuranceProvider(prop.getProperty("companyName"));
+		insProviderPage.clickOntheInsuranceCompany(prop.getProperty("companyName"));
+		insProviderPage.hoverOnfiveStars();
+		insProviderPage.clickOnfourthStar();
+		insProviderPage.selectInsTypeFromPolicyDropDown(prop.getProperty("insuranceType"),
+				prop.getProperty("reviewText"));
+		// insProviderPage.writeYourReview(prop.getProperty("reviewText"));
+		insProviderPage.clicksubmitButton();
+		insProviderPage.VerifyreviewpostedConfirmation();
+	}
+
+	@Test(priority = 4)
+	public void userProfilePageTest() throws InterruptedException {
+		// Methods related to User Profile Page
+		userprofilepg.clickProfileFromUserMenu("Profile");
+		userprofilepg.validateProfileName(prop.getProperty("userName"));
+		userprofilepg.userReviewFeedUpdated(prop.getProperty("userName"), prop.getProperty("companyName"));
+	}
+
+	@AfterTest
+	public void tearDown() {
+		driver.quit();
+	}
+}

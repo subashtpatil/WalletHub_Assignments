@@ -3481,3 +3481,375 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2020-01-16 18:38:24,270 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
 2020-01-16 18:38:24,374 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-01-16 18:38:24,404 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-16 21:42:21,890 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 21:42:22,343 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-16 21:42:22,358 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 21:42:22,358 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-16 21:43:07,716 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 21:43:07,716 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-16 21:43:07,732 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 21:43:07,732 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-16 21:43:17,957 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 21:43:17,957 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-16 21:43:17,973 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 21:43:17,973 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-16 21:51:18,040 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 21:51:18,056 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-16 21:51:18,087 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 21:51:18,087 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-16 21:57:54,059 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 21:57:54,059 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-16 21:57:54,059 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 21:57:54,059 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-16 22:00:16,175 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 22:00:16,175 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-16 22:00:16,175 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 22:00:16,175 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-16 22:00:33,303 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 22:00:33,303 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-16 22:00:33,303 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 22:00:33,303 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-16 22:08:41,987 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 22:08:42,128 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-16 22:08:42,206 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 22:08:42,206 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:14:19,809 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:14:19,822 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 10:14:19,825 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:14:19,826 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 10:14:21,047 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:14:21,048 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:14:21,050 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:14:21,051 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:14:21,872 [Worker-19] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-17 10:17:49,520 [Worker-2] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.0.v20171201-1623.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.0.v20171201-1623.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.0.v20171201-1623.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.0.v20171201-1623.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2020-01-17 10:18:43,321 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:18:43,322 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:18:43,331 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:18:43,331 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:30:59,433 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:30:59,434 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:30:59,436 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:30:59,436 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:34:33,699 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:34:33,699 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:34:33,702 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:34:33,702 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:35:02,957 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:35:02,958 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:35:02,960 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:35:02,960 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:36:00,722 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:36:00,723 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:36:00,725 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:36:00,725 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:41:25,755 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:41:25,755 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:41:25,759 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:41:25,759 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:42:42,394 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:42:42,394 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:42:42,396 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:42:42,397 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:42:54,908 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:42:54,908 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:42:54,910 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:42:54,910 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:43:00,358 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:43:00,359 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:43:00,361 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:43:00,361 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:43:58,305 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:43:58,306 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:43:58,308 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:43:58,309 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:44:13,371 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:44:13,371 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:44:13,373 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:44:13,373 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:44:57,559 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:44:57,559 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:44:57,561 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:44:57,562 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 10:51:04,281 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:51:04,282 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 10:51:04,283 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 10:51:04,284 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:06:30,539 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:06:30,723 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:06:30,908 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:06:30,908 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:07:43,720 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:07:43,721 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:07:43,735 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:07:43,735 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:09:12,209 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:09:12,209 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:09:12,279 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:09:12,279 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:21:10,028 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:21:10,028 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:21:10,028 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:21:10,043 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:21:49,398 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:21:49,398 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:21:49,398 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:21:49,398 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:22:42,903 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:22:42,903 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:22:42,903 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:22:42,919 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:24:03,771 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:24:03,771 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:24:03,771 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:24:03,786 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:24:16,327 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:24:16,327 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:24:16,327 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:24:16,327 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:25:01,838 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:25:01,838 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:25:01,838 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:25:01,838 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:36:14,463 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:36:14,698 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:36:14,729 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:36:14,729 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:42:22,894 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:42:23,050 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:42:23,066 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:42:23,066 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:48:52,111 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:48:52,127 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:48:52,143 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:48:52,143 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:55:55,181 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:55:55,181 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:55:55,181 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:55:55,181 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 11:57:46,741 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:57:46,741 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 11:57:46,741 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 11:57:46,741 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 12:04:57,620 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:04:57,620 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 12:04:57,636 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:04:57,636 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 12:06:40,913 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:06:40,913 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 12:06:40,929 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:06:40,929 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 12:22:58,596 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:22:58,760 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 12:22:58,760 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:22:58,760 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 12:33:06,960 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:33:07,151 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 12:33:07,181 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:33:07,182 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 12:51:04,218 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:51:04,293 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 12:51:04,330 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:51:04,330 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 12:51:27,982 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:51:28,013 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 12:51:28,044 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:51:28,044 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 12:52:40,830 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:52:40,830 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 12:52:40,831 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:52:40,832 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 12:53:22,740 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:53:22,741 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 12:53:22,743 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:53:22,756 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 12:57:50,479 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:57:50,479 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 12:57:50,479 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 12:57:50,479 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 13:05:05,491 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 13:05:05,632 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 13:05:05,679 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 13:05:05,679 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:17:20,234 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:17:20,281 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:17:20,281 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:17:20,281 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:18:26,360 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:18:26,360 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:18:26,360 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:18:26,360 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:19:02,573 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:19:02,573 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:19:02,604 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:19:02,604 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:21:46,268 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:21:46,268 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:21:46,283 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:21:46,283 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:24:03,517 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:24:03,517 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:24:03,517 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:24:03,517 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:33:55,694 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:33:55,694 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:33:55,694 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:33:55,694 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:35:27,649 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:35:27,649 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:35:27,649 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:35:27,649 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:36:17,198 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:36:17,198 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:36:17,386 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:36:17,386 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:36:46,145 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:36:46,145 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:36:46,145 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:36:46,145 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:39:04,880 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:39:04,895 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:39:04,911 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:39:04,911 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:39:30,801 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:39:30,801 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:39:30,816 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:39:30,816 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:41:58,675 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:41:58,675 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:41:58,690 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:41:58,690 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:43:00,579 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:43:00,579 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:43:00,579 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:43:00,579 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:49:57,375 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:49:57,453 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:49:57,485 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:49:57,485 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:55:50,688 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:55:50,703 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:55:50,703 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:55:50,703 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:57:02,657 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:57:02,657 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:57:02,657 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:57:02,657 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 14:59:10,347 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:59:10,347 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 14:59:10,347 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 14:59:10,347 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 15:00:50,688 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:00:50,688 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 15:00:50,688 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:00:50,688 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\test\resources
+2020-01-17 15:02:51,564 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:02:51,564 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:02:51,564 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:02:51,564 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:07:46,454 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:07:46,501 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:07:46,501 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:07:46,501 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:16:32,928 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:16:33,048 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:16:33,064 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:16:33,064 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:19:48,099 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:19:48,208 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:19:48,208 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:19:48,208 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:20:12,862 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:20:12,863 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:20:12,865 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:20:12,866 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:20:42,590 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:20:42,590 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:20:42,590 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:20:42,590 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:21:14,565 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:21:14,565 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:21:14,565 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:21:14,565 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:25:29,298 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:25:29,316 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:25:29,342 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:25:29,342 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:35:22,358 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:35:22,499 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:35:22,608 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:35:22,608 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:38:21,623 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:38:21,623 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:38:21,623 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:38:21,623 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:43:38,155 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:43:38,155 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:43:38,155 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:43:38,155 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:49:41,348 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:49:41,629 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:49:41,845 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:49:41,849 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:50:01,878 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:50:01,878 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:50:01,893 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:50:01,893 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:50:21,822 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:50:21,822 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:50:21,838 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:50:21,838 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:59:34,589 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:59:34,870 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:59:34,917 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:59:34,917 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 15:59:35,891 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:59:35,891 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 15:59:35,891 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 15:59:35,891 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 16:04:21,064 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 16:04:21,064 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 16:04:21,095 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 16:04:21,095 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 16:04:23,880 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 16:04:23,880 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 16:04:23,880 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 16:04:23,880 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 16:08:51,052 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 16:08:51,052 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 16:08:51,052 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 16:08:51,052 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 16:12:56,912 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 16:12:56,912 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 16:12:56,927 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 16:12:56,927 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 16:13:06,281 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 16:13:06,281 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 16:13:06,302 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 16:13:06,303 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 17:31:16,034 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 17:31:16,159 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\main\resources
+2020-01-17 17:31:16,237 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 17:31:16,237 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\Facebook_Assignment1\src\test\resources
+2020-01-17 17:33:27,356 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-17 17:33:27,356 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Subhash patil\Desktop\Assignment2_WalletHub\WalletHub_Assignment\src\main\resources
+2020-01-17 17:33:27,356 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

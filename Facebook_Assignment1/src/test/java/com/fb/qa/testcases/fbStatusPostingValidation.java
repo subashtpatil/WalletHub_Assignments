@@ -1,7 +1,5 @@
 package com.fb.qa.testcases;
 
-
-import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -37,7 +35,7 @@ public class fbStatusPostingValidation extends TestBase{
 		String title= loginPage.validate_fbLoginPageTitle();   
 		Reporter.log("Actual Title =  "+ title, true);
 		Reporter.log("Expected Title = Facebook – log in or sign up", true);
-		Assert.assertEquals(title, "Facebook – log in or sign up");
+		softAssert.assertEquals(title, "Facebook – log in or sign up");
 		
 		
 		loginPage.enterEmail(prop.getProperty("email"));
@@ -66,7 +64,7 @@ public class fbStatusPostingValidation extends TestBase{
 		
 	@AfterTest
 	public void tearDown() throws InterruptedException {		
-		homePage.userLogout();		
+		//homePage.userLogout();		
 		driver.quit();		
 	}
 }

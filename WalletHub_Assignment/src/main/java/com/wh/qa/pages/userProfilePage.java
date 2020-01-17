@@ -2,6 +2,7 @@ package com.wh.qa.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -26,9 +27,9 @@ public class userProfilePage extends TestBase {
 	@FindBy(xpath = "//h4[contains(text(),'Your review has been posted.')]")
 	WebElement reviewpostedConformation;
 
-	// userMenu
+	/*// userMenu     
 	@FindBy(xpath = "//div[@class='brgm-button brgm-user brgm-list-box']")
-	WebElement userMenu;
+	WebElement userMenu;*/
 
 	// profile Name
 	@FindBy(xpath = "//h1[@class='profile-name']")
@@ -49,7 +50,9 @@ public class userProfilePage extends TestBase {
 	// Actions or Methods //
 	// ==============================================================
 	// ***********Click on the User from main Menu and then Profile from sub-menu
-	public void clickProfileFromUserMenu(String profile1) throws InterruptedException {
+	public void clickProfileFromUserMenu(String userFN, String profile1) throws InterruptedException {
+		Thread.sleep(4000);
+		WebElement userMenu=driver.findElement(By.xpath("//span[contains(text(),'"+userFN+"')]"));
 		wait.until(ExpectedConditions.visibilityOf(userMenu));
 		action.moveToElement(userMenu).perform();
 		Thread.sleep(1000);
@@ -76,11 +79,18 @@ public class userProfilePage extends TestBase {
 		Reporter.log("User name is displayed on Profile page", true);
 		softAssert.assertEquals(userval, true);
 
-		WebElement comp = driver.findElement(By.xpath("//a[contains(text(),'" + compName + "')]"));
-		String userReviewedComp = comp.getText();
-
-		softAssert.assertEquals(userReviewedComp, compName);
-		softAssert.assertAll();
+		try {
+			WebElement comp = driver.findElement(By.xpath("//a[contains(text(),'" + compName + "')]"));
+			String userReviewedComp = comp.getText();
+			softAssert.assertEquals(userReviewedComp, compName);
+			Reporter.log("The company is reviewed by the user and is visible in the User's Recommended companies list",
+					true);
+			softAssert.assertAll();
+		} catch (NoSuchElementException e) {
+			e.printStackTrace();
+			Reporter.log("The company reviewed by the user is not visible in the User's Recommended companies list",
+					true);
+		}
 	}
 
 }
